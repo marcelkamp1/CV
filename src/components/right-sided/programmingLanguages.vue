@@ -1,12 +1,12 @@
 <template>
   <div>
     <h2>
-      <svg-icon type="mdi" class="mdi" :path="path" />
+      <svg-icon type="mdi" class="mdi" :path="icon" />
       Programming Languages
     </h2>
     <table>
       <tr>
-        <td><svg-icon type="mdi" class="mdi" :path="vuePath" /></td>
+        <td><svg-icon type="mdi" class="mdi" :path="vueIcon" /></td>
         <td class="value">
           <AwesomeVueStarRating
             class="stars"
@@ -21,7 +21,7 @@
         </td>
       </tr>
       <tr>
-        <td><svg-icon type="mdi" class="mdi" :path="javascriptPath" /></td>
+        <td><svg-icon type="mdi" class="mdi" :path="javascriptIcon" /></td>
         <td class="value">
           <AwesomeVueStarRating
             class="stars"
@@ -36,7 +36,7 @@
         </td>
       </tr>
       <tr>
-        <td><svg-icon type="mdi" class="mdi" :path="htmlPath" /></td>
+        <td><svg-icon type="mdi" class="mdi" :path="htmlIcon" /></td>
         <td class="value">
           <AwesomeVueStarRating
             class="stars"
@@ -51,7 +51,7 @@
         </td>
       </tr>
       <tr>
-        <td><svg-icon type="mdi" class="mdi" :path="cssPath" /></td>
+        <td><svg-icon type="mdi" class="mdi" :path="cssIcon" /></td>
         <td class="value">
           <AwesomeVueStarRating
             class="stars"
@@ -66,7 +66,7 @@
         </td>
       </tr>
       <tr>
-        <td><svg-icon type="mdi" class="mdi" :path="sassPath" /></td>
+        <td><svg-icon type="mdi" class="mdi" :path="sassIcon" /></td>
         <td class="value">
           <AwesomeVueStarRating
             class="stars"
@@ -81,7 +81,7 @@
         </td>
       </tr>
       <tr>
-        <td><svg-icon type="mdi" class="mdi" :path="javaPath" /></td>
+        <td><svg-icon type="mdi" class="mdi" :path="javaIcon" /></td>
         <td class="value">
           <AwesomeVueStarRating
             class="stars"
@@ -112,13 +112,13 @@ export default {
   },
   data () {
     return {
-      path: mdiLaptop,
-      vuePath: mdiVuejs,
-      javascriptPath: mdiLanguageJavascript,
-      cssPath: mdiLanguageCss3,
-      sassPath: mdiSass,
-      htmlPath: mdiLanguageHtml5,
-      javaPath: mdiLanguageJava,
+      icon: mdiLaptop,
+      vueIcon: mdiVuejs,
+      javascriptIcon: mdiLanguageJavascript,
+      cssIcon: mdiLanguageCss3,
+      sassIcon: mdiSass,
+      htmlIcon: mdiLanguageHtml5,
+      javaIcon: mdiLanguageJava,
       vue: 4,
       javascript: 4,
       html: 4,
