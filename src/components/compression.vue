@@ -4,7 +4,7 @@
     <skills class="skills right-sided" />
     <language class="language right-sided" />
     <programming-languages class="programming right-sided" />
-    <strange class="test"/>
+    <footnote />
   </div>
 </template>
 
@@ -13,7 +13,7 @@ import PersonalInfo from '@/components/right-sided/personalInfo'
 import Skills from '@/components/right-sided/skills'
 import Language from '@/components/right-sided/language'
 import ProgrammingLanguages from '@/components/right-sided/programmingLanguages'
-import strange from '@/components/general/strange'
+import Footnote from '@/components/general/footnote'
 
 export default {
   name: 'Compression',
@@ -22,7 +22,7 @@ export default {
     Skills,
     Language,
     ProgrammingLanguages,
-    strange
+    Footnote
   }
 }
 </script>
@@ -44,5 +44,6 @@ export default {
 }
 .programming {
   top: 72em;
+  padding-bottom: 6em;
 }
 </style>

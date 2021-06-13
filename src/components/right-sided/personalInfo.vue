@@ -31,6 +31,12 @@
         <td class="attr">City:</td>
         <td class="value">Hennef</td>
       </tr>
+      <tr>
+        <td class="attr">Mobile Phone:</td>
+        <td class="value">
+          <a href="tel:+4915228524111">015228524111</a>
+        </td>
+      </tr>
     </table>
   </div>
 </template>
