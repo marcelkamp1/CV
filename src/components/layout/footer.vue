@@ -1,1 +1,0 @@
-// TODO: social media links hinter icon -> github icon = dahinterliegender github link 
