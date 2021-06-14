@@ -52,7 +52,7 @@ export default {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #c9feff;
+  background-color: #feffac;
 }
 .mdi {
   width: 36px;
